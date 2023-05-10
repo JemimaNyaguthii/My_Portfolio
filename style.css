@@ -1,0 +1,91 @@
+body{
+    margin:0%;
+    padding: 0%;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  
+}
+.nav{
+    display: flex;
+    width: 80%;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: space-between;
+
+}
+ .Home{
+    background-color:#adb5bd ;
+    height: 40rem;
+    margin: 0%;
+   
+
+}
+ #logo{
+    height: 3rem; 
+    /* margin-top: 5%; */
+ }
+
+
+.nav a:hover{
+    color: orange;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:#ae3ec9;
+    font-size: 1rem;
+    font-weight: bold;
+
+    /* justify-content: space-between; */
+ 
+}
+.nav ul li{
+    display:inline-block;
+    gap: 10%;
+    list-style: none;
+    padding: 0 1rem;
+    margin-top: 5%;
+  
+ 
+} 
+.Firstpage h1{
+    margin-top: 13%; 
+    margin-left: 10%;
+    font-size: 50px;
+    text-align: center;
+
+} 
+#span{
+    color: #ae3ec9;
+}
+.Firstpage h1:hover{
+    color: #ae3ec9;
+
+}
+.Firstpage p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 22px;
+}
+.links{
+    margin-left: 50%;
+}
+.about{
+background-color: black;
+color: aliceblue;
+display: flex;
+
+}
+.about p{
+    margin-left: 4%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+.about h1{
+    margin-left: 4%;
+}
+#profile{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    /* height: 30rem; */
+}
